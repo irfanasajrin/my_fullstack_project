@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> Functions: </h1>
+   <button onClick="changeClr()"> click here</button>
+   <table  border ="1" id="main_table" borders="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th> Age</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Alice</td>
+            <td> 30</td>
+        </tr>
+        <tr>
+            <td> Bob</td>
+            <td> 20</td>
+        </tr>
+
+    </tbody>
+   </table>
+   <script>
+    let tb=document.querySelector("table");
+    function changeClr(){
+        tb.style.backgroundColor = "yellow";
+    }
+   </script>
+</body>
+</html>
